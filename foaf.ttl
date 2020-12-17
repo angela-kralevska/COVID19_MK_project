@@ -1,1 +1,24 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Kralevska" ;
+    foaf:givenname "Angela" ;
+    foaf:homepage <https://www.facebook.com/angela.kralevska/> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://mjovanovik.com/foaf.ttl> ;
+            foaf:mbox_sha1sum "3a5d64e0d734c4b912632fb0189234ac112d9ede" ;
+            foaf:name "Milosh Jovanovikj" ] ;
+    foaf:mbox_sha1sum "38193af0b7960dd1e1cf0457bde8d10f67c26450" ;
+    foaf:name "Angela Kralevska" ;
+    foaf:nick "Kral" ;
+    foaf:phone <https://raw.githubusercontent.com/angela-kralevska/COVID19_MK_project/master/tel:070398033> ;
+    foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+    foaf:title "Mrs" .
